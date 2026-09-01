@@ -27,6 +27,7 @@ Ask a question in **English or Kannada**, typed or spoken, and get an answer com
 The engine's #1 job is **not** finding winning strategies. It's refusing to show me a fake one.
 
 - **Next-bar execution** — a decision on bar N can only fill at bar N+1's open, which makes lookahead bias *structurally impossible* rather than merely discouraged
+- **An integrity pass before any strategy runs** — gaps, duplicate bars, timezone mistakes, impossible candles (high below low), suspected un-adjusted stock splits, missing values. Bad data in, the backtest never starts
 - Real Indian costs charged on every trade: brokerage, STT, exchange fees, SEBI fee, stamp duty, GST, slippage
 - Walk-forward testing, Monte Carlo resampling, parameter-sensitivity heatmaps
 - A **multiple-testing penalty** that rises with every variant tried — and a permanent count of every variant ever tested, because forgetting your failures inflates everything after them
@@ -34,6 +35,16 @@ The engine's #1 job is **not** finding winning strategies. It's refusing to show
 - 29 test files, in the repo from commit 1
 
 `Python` `pandas` `NumPy` `pytest` `Angel One SmartAPI`
+
+### 🎬 [bloom-cafe](https://github.com/sumithshridhar/bloom-cafe) — a cinematic site that degrades honestly
+A scroll-animated café site: the page opens as a solid paper field with the name cut out of it, and scrolling flies the camera through the letter into the room. Plain HTML/CSS/JS + GSAP, no build step.
+
+- If the animation CDN fails to load, the page renders a clean static version instead of a broken one
+- Respects `prefers-reduced-motion` — the whole zoom-through is swapped for the settled layout
+- Font-loading gate so text never flashes unstyled
+- **[Live demo](https://sumithshridhar.github.io/bloom-cafe)**
+
+`HTML` `CSS` `JavaScript` `GSAP` `ScrollTrigger`
 
 ---
 
