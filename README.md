@@ -6,6 +6,16 @@ Bengaluru, India · self-taught · B.Com (Data Analytics, 2025)
 
 Most AI demos work once, on stage. I'm more interested in the boring part: what happens on day 90, at 3am, when nobody is watching and the input is malformed. Every project below has some version of the same idea baked in — **a system that tells you when it is wrong.**
 
+> **Open to junior AI / automation / forward-deployed engineering roles at Bengaluru startups** (on-site or hybrid) or remote. Immediate joiner. DM me on [LinkedIn](https://www.linkedin.com/in/sumith-shridhar-b9919924a/) or [X](https://x.com/sumithshridhar).
+
+---
+
+## 🆕 Shipped this month
+
+- **[shorts-pipeline-hardening](https://github.com/sumithshridhar/shorts-pipeline-hardening)**: 3 production bug postmortems from an unattended Shorts pipeline. A bug that deleted a finished video and logged it as a success, an `open(path, "w")` that could zero the whole script queue, and a copy-pasted codebase that let one channel ship another's content.
+- **[n8n-content-automation](https://github.com/sumithshridhar/n8n-content-automation)**: the n8n workflows behind it. A generator → critic LLM loop, a fully-local Ollama + SSH rebuild, and vision-verified, retry-robust phone automation over ADB.
+- **[binance-trading-algo](https://github.com/sumithshridhar/binance-trading-algo)**: a Binance backtest + paper-trading engine built to say no. Next-bar fills, real fees, and a split-half bake-off of six classic strategies against buy & hold.
+
 ---
 
 ## What I build
@@ -62,6 +72,6 @@ A scroll-animated café site: the page opens as a solid paper field with the nam
 
 ## Reach me
 
-Open to freelance work in AI automation, agent systems, and data pipelines.
+Open to junior full-time roles at Bengaluru startups, and to freelance work in AI automation, agent systems, and data pipelines.
 
-[LinkedIn](https://www.linkedin.com/in/sumith-shridhar-b9919924a/)
+[LinkedIn](https://www.linkedin.com/in/sumith-shridhar-b9919924a/) · [X](https://x.com/sumithshridhar)
