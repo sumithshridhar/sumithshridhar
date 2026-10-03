@@ -10,8 +10,10 @@ Most AI demos work once, on stage. I'm more interested in the boring part: what 
 
 ---
 
-## 🆕 Shipped this month
+## 🆕 Shipped in September 2026
 
+- **[ghost-ops-jev-buildathon](https://github.com/sumithshridhar/ghost-ops-jev-buildathon)**: runtime guard rules for a finance-ops agent (Jev Buildathon, team of 2). Every tool call is checked against the finance policy before it runs: bank-detail changes without a callback, split payments, refunds to new accounts, sanctioned vendors. No harmful action got through in the 13 practice tasks while real invoices still got paid; 59/59 scenario tests on unseen data.
+- **[gh01-twin](https://github.com/sumithshridhar/gh01-twin)** ([live demo](https://sumithshridhar.github.io/gh01-twin/)): an interactive 3D twin of a small AI + robotics tomato greenhouse (115 components, design and simulation only). The AI suggests, a safety PLC decides, hard-wired cut-offs protect. Filming its failure tests (pump failure, water shortage) exposed 3 bugs in my own safety logic, all fixed.
 - **[shorts-pipeline-hardening](https://github.com/sumithshridhar/shorts-pipeline-hardening)**: 3 production bug postmortems from an unattended Shorts pipeline. A bug that deleted a finished video and logged it as a success, an `open(path, "w")` that could zero the whole script queue, and a copy-pasted codebase that let one channel ship another's content.
 - **[n8n-content-automation](https://github.com/sumithshridhar/n8n-content-automation)**: the n8n workflows behind it. A generator → critic LLM loop, a fully-local Ollama + SSH rebuild, and vision-verified, retry-robust phone automation over ADB.
 - **[binance-trading-algo](https://github.com/sumithshridhar/binance-trading-algo)**: a Binance backtest + paper-trading engine built to say no. Next-bar fills, real fees, and a split-half bake-off of six classic strategies against buy & hold.
